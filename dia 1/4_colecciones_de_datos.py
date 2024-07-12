@@ -92,3 +92,5 @@ print(persona['nombre'])
 print(len(persona['hobbies']))
 # Como obtener el zip code de la direccion de la persona
 print(persona['direccion']['zip_code'])
+
+print(persona['apellido'])
