@@ -30,10 +30,10 @@ print(alumno1)
 
 # upper > convierte el contenido a MAYUSCULAS
 # Para todo la informacion relacionada a las variables TEXTO:
-# 
+# https://docs.python.org/3/library/string.html#module-string
 print(alumno1.upper())
 
-# 
+# https://docs.python.org/3/library/functions.html#int
 
 # split > separar el texto en base al caracter de busqueda
 resultado = texto1.split(" ")
