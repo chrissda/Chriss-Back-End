@@ -45,3 +45,6 @@ CREATE TABLE movimientos(
 
 -- Asi se puede editar la configuracion de una tabla sin la necesita de liminarla y volver a crear ya que se perderia la informacion dentro de ella
 ALTER TABLE movimientos ALTER COLUMN cuenta_destino DROP NOT NULL;
+
+-- Cambia el nombre de la columna
+ALTER TABLE movimientos RENAME COLUMN fecha_operacion TO fecha_transaccion;
