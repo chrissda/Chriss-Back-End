@@ -92,3 +92,5 @@ SELECT * FROM alumnos ORDER BY nombre DESC, apellidos ASC;
 -- LIMIT > Cuantos queremos
 -- OFFSET > Cuantos debe omitir
 SELECT * FROM alumnos LIMIT 2 OFFSET 0;
+
+
