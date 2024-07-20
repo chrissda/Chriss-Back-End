@@ -48,3 +48,4 @@ ALTER TABLE movimientos ALTER COLUMN cuenta_destino DROP NOT NULL;
 
 -- Cambia el nombre de la columna
 ALTER TABLE movimientos RENAME COLUMN fecha_operacion TO fecha_transaccion;
+

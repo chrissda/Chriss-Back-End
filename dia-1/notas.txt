@@ -6,3 +6,13 @@ psql -U USUARIO-DB  -h HOST -p PORT NOMBRE_DB > forma para conectarnos a nuestro
 \dt > lista todas las tablas de nuestra DB
 \d NOMBRE_TABLA > la descripcion de la tabla con sus columnas, tipos de datos y constraints
 \x > modificar la visualizacion de los datos y ahora en dez de tabla se veran como una tarjeta
+
+
+PARA HACER UNA COPIA DE SEGURIDAD ES DE LA SIGUIENTE MANERA:
+pg_dump -U USUARIO -h HOST -p PUERTO NOMBRE_ARCHIVO[.sql | .backup] NOMBRE_DB
+
+PARA HACER LA RESTAURACION
+Primero debemos tener la base de datos YA CREADA y que no exista las tablas que vamos a restaurar sino lanzara errores
+
+USUANDO ARCHIVOS .sql
+  psql 
