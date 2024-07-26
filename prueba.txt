@@ -1,1 +1,6 @@
 Soy un mensaje de prueba
+
+
+python -m venv entorno_semana03
+seource entorno_semana03/Scripts/activate
+pip install -r requirements.txt
